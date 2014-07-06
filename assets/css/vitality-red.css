@@ -248,7 +248,7 @@ header .scroll-down .btn:hover {
   border-color: rgba(255, 255, 255, 0.5);
   outline: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 0px) {
   header {
     height: 100%;
     width: 100%;
@@ -258,7 +258,7 @@ header .scroll-down .btn:hover {
   header .intro-content {
     color: white;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -278,6 +278,14 @@ header .scroll-down .btn:hover {
   header img {
     max-width: 300px;
     max-height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .brand-name {
+    font-size: 60px !important;
+  }
+  .brand-name-subtext {
+    font-size: 20px !important;
   }
 }
 @media (min-width: 1025px) {
