@@ -47,3 +47,11 @@ footer.footer {
 footer div.container {
 	color: white;
 }
+
+header {
+	padding: 0 !important;
+}
+
+.intro-content {
+}
+
